@@ -8,7 +8,7 @@ export default function ProjectsGrid({ setCurrentGrid, animatedStyles }) {
 
   const [subheadingIdx, setSubheadingIdx] = useState(0);
   const subheading =
-    "Here are a few personal projects Ive worked on over the years".split("");
+    "Here are a few personal projects I&apos;ve worked on over the years".split("");
 
   useEffect(() => {
     const id = setInterval(() => {
@@ -46,7 +46,7 @@ export default function ProjectsGrid({ setCurrentGrid, animatedStyles }) {
           className="w-full h-full bg-[#A7C957] border border-black flex items-center justify-center"
         >
           <p className="text-center text-black text-lg">
-            Project 1: I created a Spotify playlist automation project using Terraform, leveraging Infrastructure as Code (IaC) to manage playlist creation. The project involved writing Terraform scripts to interact with the Spotify API for automated playlist management.<br / > It streamlined adding tracks and updating playlists through code-defined resources. This project demonstrates Terraform's versatility in managing API-driven services like Spotify.
+            Project 1: I created a Spotify playlist automation project using Terraform, leveraging Infrastructure as Code (IaC) to manage playlist creation. The project involved writing Terraform scripts to interact with the Spotify API for automated playlist management.<br /> It streamlined adding tracks and updating playlists through code-defined resources. This project demonstrates Terraform&apos;s versatility in managing API-driven services like Spotify.
           </p>
           <div className="flex justify-center items-center w-full h-full">
             <a
@@ -142,9 +142,9 @@ export default function ProjectsGrid({ setCurrentGrid, animatedStyles }) {
           className="w-full h-full relative bg-[#6A994E] border border-neutral-900 flex items-center justify-center"
         >
           <p className="text-center text-white text-lg">
-            Project 4: This Terraform project automates Snowflake user creation using loops (for_each), reducing code duplication and improving efficiency. Users are customized with attributes like passwords, default warehouses, roles, and namespaces.It provides a scalable, maintainable solution for managing multiple users.
+            Project 4: This Terraform project automates Snowflake user creation using loops (for_each), reducing code duplication and improving efficiency. Users are customized with attributes like passwords, default warehouses, roles, and namespaces. It provides a scalable, maintainable solution for managing multiple users.
           </p>
-           <div className="flex justify-center items-center w-full h-full">
+          <div className="flex justify-center items-center w-full h-full">
             <a
               href="https://github.com/ambatibhargavi/terraformloops"
               target="_blank"
@@ -174,30 +174,6 @@ export default function ProjectsGrid({ setCurrentGrid, animatedStyles }) {
               target="_blank"
               rel="noopener noreferrer"
               className="px-6 py-2 bg-yellow-500 text-black rounded-md shadow-md hover:bg-yellow-600 hover:shadow-lg transition-all"
-            >
-              View Project
-            </a>
-          </div>
-        </animated.div>
-      </animated.div>
-
-      <animated.div
-        style={animatedStyles}
-        className="lg:row-span-3 lg:col-span-2"
-      >
-        <animated.div
-          style={trails[4]}
-          className="w-full h-full lg:flex justify-between items-center p-10 gap-5 bg-[#A7C957] border border-black"
-        >
-          <p className="text-center text-black text-lg">
-            Project 6: This Netflix Clone is built and containerized using microservices and SonarQube.  
-          </p>
-           <div className="flex justify-center items-center w-full h-full">
-            <a
-              href="https://github.com/ambatibhargavi/Clone-Services"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="px-6 py-2 bg-pink-500 text-white rounded-md shadow-md hover:bg-pink-600 hover:shadow-lg transition-all"
             >
               View Project
             </a>
