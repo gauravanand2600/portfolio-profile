@@ -186,7 +186,7 @@ export default function ProjectsGrid({ setCurrentGrid, animatedStyles }) {
         className="lg:row-span-3 lg:col-span-4"
       >
         <animated.div
-          style={trails[4]}
+          style={trails[6]}
           className="w-full h-full lg:flex justify-between items-center p-10 gap-5 bg-[#A7C957] border border-black"
         >
           <p className="text-center text-black text-lg">
