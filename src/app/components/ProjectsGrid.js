@@ -8,7 +8,7 @@ export default function ProjectsGrid({ setCurrentGrid, animatedStyles }) {
 
   const [subheadingIdx, setSubheadingIdx] = useState(0);
   const subheading =
-    "Here are a few personal projects I've worked on over the years".split("");
+    "Here are a few personal projects Ive worked on over the years".split("");
 
   useEffect(() => {
     const id = setInterval(() => {
