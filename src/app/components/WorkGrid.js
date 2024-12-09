@@ -53,7 +53,12 @@ export default function WorkGrid({ setCurrentGrid, animatedStyles }) {
         <animated.div
           style={trails[1]}
           className='w-full h-full bg-[#BC4749] border border-black'
-        ></animated.div>
+        >
+      <img
+        src="https://i.pinimg.com/474x/aa/fd/89/aafd89e2e816f8d30cdf7ffa325b2de2.jpg" // Replace with your image path
+        className="w-full h-full object-cover"
+      />
+      </animated.div>
       </animated.div>
 
       <animated.div
@@ -63,9 +68,13 @@ export default function WorkGrid({ setCurrentGrid, animatedStyles }) {
         <animated.div
           style={trails[3]}
           className='w-full h-full relative bg-[#A7C957] border border-black'
-        ></animated.div>
+        >
+      <img
+        src="https://i.pinimg.com/736x/a9/6e/78/a96e78f31b8e56fdc4743249f7342d75.jpg" // Replace with your image path
+        className="w-full h-full object-cover"
+      />
       </animated.div>
-
+      </animated.div>
       <animated.div
         style={animatedStyles}
         className='lg:col-span-3 lg:row-span-6'
@@ -73,7 +82,12 @@ export default function WorkGrid({ setCurrentGrid, animatedStyles }) {
         <animated.div
           style={trails[2]}
           className='w-full h-full relative bg-[#6A994E] border border-neutral-900'
-        ></animated.div>
+        >
+      <img
+        src="https://i.pinimg.com/736x/1c/69/94/1c69946b7f0372a52992805ecd5c2095.jpg" // Replace with your image path
+        className="w-full h-full object-cover"
+      />
+      </animated.div>
       </animated.div>
 
       <animated.div
@@ -107,7 +121,12 @@ export default function WorkGrid({ setCurrentGrid, animatedStyles }) {
         <animated.div
           style={trails[4]}
           className='w-full h-full relative bg-[#6A994E] border border-neutral-900'
-        ></animated.div>
+        >
+       <img
+        src="https://i.pinimg.com/736x/a7/90/43/a790438daf53b537598ac9b1654ab5c0.jpg" // Replace with your image path
+        className="w-full h-full object-cover"
+      />
+      </animated.div>
       </animated.div>
 
       <animated.div
@@ -117,7 +136,21 @@ export default function WorkGrid({ setCurrentGrid, animatedStyles }) {
         <animated.div
           style={trails[4]}
           className='w-full h-full relative bg-[#6A994E] border border-neutral-900'
-        ></animated.div>
+        >
+          <p className="text-center text-white text-lg">
+            At Cloudpal, I worked as a DevOps Engineer where I was responsible for designing, deploying, and maintaining scalable infrastructure solutions using a combination of cloud tech.
+          </p>
+           <div className="flex justify-center items-center w-full h-full">
+            <a
+              href="https://www.linkedin.com/in/ambatibhargavi/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="px-6 py-2 bg-[#D8BFD8] text-black rounded-md shadow-md hover:bg-[#E6E6FA] hover:shadow-lg transition-all"
+            >
+              View 
+            </a>
+          </div>
+        </animated.div>
       </animated.div>
     </animated.div>
   )

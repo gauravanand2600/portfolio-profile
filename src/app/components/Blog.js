@@ -372,12 +372,18 @@ export default function Blog() {
           stroke='#000'
         />
       </svg>
+      <a
+        href="https://medium.com/@ambatibhargavi"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
 
       <div className='hover:scale-105 transition-all cursor-pointer lg:absolute bg-[#264653] w-fit px-5 py-2 m-3 border border-black'>
         <h2 className='font-neutral-900 text-3xl font-bold text-[#E9C46A]'>
           Blog
         </h2>
       </div>
+     </a>
     </div>
   )
 }

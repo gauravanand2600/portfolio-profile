@@ -1,9 +1,9 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import {
   faGithub,
-  faInstagram,
+  faHackerrank,
   faLinkedinIn,
-  faXTwitter,
+  faMedium,
   faYoutube,
 } from "@fortawesome/free-brands-svg-icons"
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons"
@@ -172,14 +172,14 @@ export default function Contact() {
       </div>
       <div className='grid grid-cols-3 gap-3 md:w-1/2'>
         <BlackIconWrapper
-          icon={faInstagram}
-          target='https://www.instagram.com/thecodedose/'
+          icon={faHackerrank}
+          target='https://www.hackerrank.com/profile/AmbatiBhargavi'
         />
-        <RedIconWrapper icon={faXTwitter} target="https://x.com/thecodedose" />
-        <BlackIconWrapper icon={faYoutube} target="https://www.youtube.com/channel/UCUqYu_GiAzFL4ErDEiK9xbA" />
-        <RedIconWrapper icon={faLinkedinIn} target="https://www.linkedin.com/in/ihsavru/" />
-        <BlackIconWrapper icon={faGithub} target="https://github.com/thecodedose"  />
-        <RedIconWrapper icon={faEnvelope} target="urvashi@thecodedose.com" isEmail />
+        <RedIconWrapper icon={faMedium} target="https://medium.com/@ambatibhargavi" />
+        <BlackIconWrapper icon={faYoutube} target='https://devopspulse.netlify.app' />
+        <RedIconWrapper icon={faLinkedinIn} target="https://www.linkedin.com/in/ambatibhargavi/" />
+        <BlackIconWrapper icon={faGithub} target="https://github.com/ambatibhargavi"  />
+        <RedIconWrapper icon={faEnvelope} target="ambatibhargavi977@gmail.com" isEmail />
       </div>
     </>
   )
