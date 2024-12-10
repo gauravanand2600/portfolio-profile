@@ -22,7 +22,7 @@ You can view the live application here.
 
 📸 Screenshots
 <img width="1431" alt="Screenshot 2024-12-07 at 17 07 11" src="https://github.com/user-attachments/assets/e35748c1-a74c-490d-8fb4-4db409a9c7f5">
-<img width="1432" alt="Screenshot 2024-12-07 at 17 05 33" src="https://github.com/user-attachments/assets/11d28c3a-99db-40ac-9019-74f3f060e9f1">
+<img width="721" alt="Screenshot 2024-12-10 at 22 27 48" src="https://github.com/user-attachments/assets/2c7c736e-747b-43a4-b7e7-569bf40ea8e6">
 <img width="1416" alt="Screenshot 2024-12-07 at 17 05 58" src="https://github.com/user-attachments/assets/86847166-3141-4329-9d65-24e5a76129c7">
 
 
