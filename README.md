@@ -21,9 +21,10 @@ Follow the steps below to set up and run Bentofolio locally or deploy it to Verc
 You can view the live application here.
 
 📸 Screenshots
-<img width="1431" alt="Screenshot 2024-12-07 at 17 07 11" src="https://github.com/user-attachments/assets/e35748c1-a74c-490d-8fb4-4db409a9c7f5">
-<img width="721" alt="Screenshot 2024-12-10 at 22 27 48" src="https://github.com/user-attachments/assets/2c7c736e-747b-43a4-b7e7-569bf40ea8e6">
-<img width="1416" alt="Screenshot 2024-12-07 at 17 05 58" src="https://github.com/user-attachments/assets/86847166-3141-4329-9d65-24e5a76129c7">
+<img width="1431" alt="Screenshot 2024-12-07 at 17 07 11" src="https://github.com/user-attachments/assets/c5703849-4ef8-48f3-8e3f-9caa813808b4"/>
+<img width="728" alt="Screenshot 2024-12-11 at 20 30 06" src="https://github.com/user-attachments/assets/6246080f-ae35-41eb-bc39-3666900042c0" />
+<img width="1416" alt="Screenshot 2024-12-07 at 17 05 58" src="https://github.com/user-attachments/assets/4766064b-a529-4ad5-b40c-4c4f092c2219"/>
+
 
 
 
