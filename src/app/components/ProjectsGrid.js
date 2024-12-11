@@ -41,7 +41,7 @@ export default function ProjectsGrid({ setCurrentGrid, animatedStyles }) {
       link: "https://github.com/ambatibhargavi/TerraformSpotify",
       bgColor: "#A7C957",
       textColor: "black",
-      buttonColor: "wine",
+      buttonColor: "orange",
     },
     {
       title: "Argo Rollouts Deployment",
