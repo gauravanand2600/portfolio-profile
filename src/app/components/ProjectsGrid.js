@@ -81,7 +81,7 @@ export default function ProjectsGrid({ setCurrentGrid, animatedStyles }) {
       link: "https://github.com/ambatibhargavi/Dockerized-Pipeline",
       bgColor: "#A7C957",
       textColor: "black",
-      buttonColor: "pink",
+      buttonColor: "blue",
     },
   ];
 
