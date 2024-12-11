@@ -131,7 +131,11 @@ export default function ProjectsGrid({ setCurrentGrid, animatedStyles }) {
                 href={project.link}
                 target="_blank"
                 rel="noopener noreferrer"
-                className={`px-6 py-2 bg-${project.buttonColor}-500 text-white rounded-md shadow-md hover:bg-${project.buttonColor}-600 hover:shadow-lg transition-all`}
+                style={{
+                  backgroundColor: project.buttonColor,
+                  color: project.textColor === "white" ? "black" : "white",
+                }}
+                className={`px-6 py-2 rounded-md shadow-md transition-all duration-300 transform hover:scale-105 hover:shadow-lg hover:brightness-90`}
               >
                 View Project
               </a>
@@ -142,4 +146,3 @@ export default function ProjectsGrid({ setCurrentGrid, animatedStyles }) {
     </animated.div>
   );
 }
-
