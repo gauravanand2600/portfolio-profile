@@ -86,12 +86,12 @@ export default function ProjectsGrid({ setCurrentGrid, animatedStyles }) {
   ];
 
   return (
-    <animated.div className="grid grid-cols-1 lg:grid-cols-9 lg:grid-rows-9 w-screen lg:h-screen p-5 gap-5 bg-stone-200">
+    <animated.div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 p-5 bg-stone-200 w-full min-h-screen">
       {/* Title Section */}
       <animated.div
         style={animatedStyles}
         onClick={() => setCurrentGrid(GRIDS[0])}
-        className="row-start-1 lg:col-span-3 lg:row-span-3"
+        className="lg:col-span-3 flex flex-col items-center justify-center"
       >
         <animated.div
           style={trails[0]}
@@ -116,17 +116,17 @@ export default function ProjectsGrid({ setCurrentGrid, animatedStyles }) {
       {projects.map((project, index) => (
         <animated.div
           key={index}
-          style={animatedStyles}
-          className={`lg:row-span-3 lg:col-span-${index % 2 === 0 ? 5 : 4}`}
+          style={trails[index + 1]}
+          className="flex flex-col items-center justify-center bg-white border border-gray-200 rounded-lg shadow-md p-5"
         >
-          <animated.div
-            style={trails[index + 1]}
-            className={`w-full h-full relative bg-[${project.bgColor}] border border-black flex items-center justify-center`}
+          <div
+            style={{ backgroundColor: project.bgColor }}
+            className="w-full h-full relative border border-black flex items-center justify-center rounded-md p-4"
           >
             <p className={`text-center text-${project.textColor} text-lg`}>
               {project.description}
             </p>
-            <div className="flex justify-center items-center w-full h-full">
+            <div className="flex justify-center items-center w-full h-full mt-4">
               <a
                 href={project.link}
                 target="_blank"
@@ -136,9 +136,10 @@ export default function ProjectsGrid({ setCurrentGrid, animatedStyles }) {
                 View Project
               </a>
             </div>
-          </animated.div>
+          </div>
         </animated.div>
       ))}
     </animated.div>
   );
 }
+
