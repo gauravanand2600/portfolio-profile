@@ -1,3 +1,4 @@
+![ScreenRecording2024-12-11at20 05 30-ezgif com-video-to-gif-converter](https://github.com/user-attachments/assets/1b0dbd8a-7359-4e8c-8d3c-3fe981d72929)
 🎨 Bentofolio
 Bentofolio is a modern and interactive portfolio web application designed to showcase your projects, work experiences, educational background, blogs, and more. Built with React, styled using TailwindCSS, and powered by React Spring animations, this portfolio ensures an engaging experience for viewers. The application is hosted on Vercel for seamless performance.
 
