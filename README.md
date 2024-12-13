@@ -17,17 +17,10 @@ Vercel - Cloud platform for static sites and serverless functions.
 🚀 Getting Started
 Follow the steps below to set up and run Bentofolio locally or deploy it to Vercel.
 
-🌐 Live Demo
-You can view the live application here.
-![ScreenRecording2024-12-11at20 05 30-ezgif com-video-to-gif-converter](https://github.com/user-attachments/assets/1b0dbd8a-7359-4e8c-8d3c-3fe981d72929)
-Live Demo : bentofolio-q4yv.vercel.app
-
 📸 Screenshots
 <img width="1431" alt="Screenshot 2024-12-07 at 17 07 11" src="https://github.com/user-attachments/assets/c5703849-4ef8-48f3-8e3f-9caa813808b4"/>
 <img width="728" alt="Screenshot 2024-12-11 at 20 30 06" src="https://github.com/user-attachments/assets/6246080f-ae35-41eb-bc39-3666900042c0" />
 <img width="1416" alt="Screenshot 2024-12-07 at 17 05 58" src="https://github.com/user-attachments/assets/4766064b-a529-4ad5-b40c-4c4f092c2219"/>
-
-
 
 
 🤝 Contributing
