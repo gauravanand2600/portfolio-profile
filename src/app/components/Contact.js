@@ -176,7 +176,7 @@ export default function Contact() {
           target='https://www.hackerrank.com/profile/AmbatiBhargavi'
         />
         <RedIconWrapper icon={faMedium} target="https://medium.com/@ambatibhargavi" />
-        <BlackIconWrapper icon={faYoutube} target='https://devopspulse.netlify.app' />
+        <BlackIconWrapper icon={faYoutube} target='https://www.youtube.com/@Bharudev' />
         <RedIconWrapper icon={faLinkedinIn} target="https://www.linkedin.com/in/ambatibhargavi/" />
         <BlackIconWrapper icon={faGithub} target="https://github.com/ambatibhargavi"  />
         <RedIconWrapper icon={faEnvelope} target="ambatibhargavi977@gmail.com" isEmail />
