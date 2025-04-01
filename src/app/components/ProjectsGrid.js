@@ -60,9 +60,9 @@ export default function ProjectsGrid({ setCurrentGrid, animatedStyles }) {
       buttonColor: "#D8BFD8",
     },
     {
-      title: "Snowflake Automation",
-      description: "This Terraform project automates Snowflake user creation using loops (for_each)...",
-      link: "https://github.com/ambatibhargavi/terraformloops",
+      title: "VPC Peering in AWS",
+      description: "This AWS Projects helps you to connect two VPC's from different availability Zone...",
+      link: "https://github.com/ambatibhargavi/VPC-peering",
       bgColor: "#6A994E",
       textColor: "white",
       buttonColor: "#D8BFD8",
