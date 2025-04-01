@@ -233,7 +233,7 @@ export default function Education() {
         />
       </svg>
       <a
-        href="https://drive.google.com/file/d/1DyBkHIcSiHfIM7euM8CK0sWwlBhN_rB9/view?usp=drive_link"
+        href="https://drive.google.com/file/d/1-Mmo7-nlUF0s16j-mtmqhwj7quY5gtNm/view?usp=sharing"
         target="_blank"
         rel="noopener noreferrer"
       >
