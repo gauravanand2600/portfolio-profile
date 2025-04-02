@@ -173,13 +173,13 @@ export default function Contact() {
       <div className='grid grid-cols-3 gap-3 md:w-1/2'>
         <BlackIconWrapper
           icon={faHackerrank}
-          target='https://www.hackerrank.com/profile/AmbatiBhargavi'
+          target=''
         />
-        <RedIconWrapper icon={faMedium} target="https://medium.com/@ambatibhargavi" />
-        <BlackIconWrapper icon={faYoutube} target='https://www.youtube.com/@Bharudev' />
-        <RedIconWrapper icon={faLinkedinIn} target="https://www.linkedin.com/in/ambatibhargavi/" />
-        <BlackIconWrapper icon={faGithub} target="https://github.com/ambatibhargavi"  />
-        <RedIconWrapper icon={faEnvelope} target="ambatibhargavi977@gmail.com" isEmail />
+        <RedIconWrapper icon={faMedium} target="https://medium.com/@gauravanand2600" />
+        <BlackIconWrapper icon={faYoutube} target='' />
+        <RedIconWrapper icon={faLinkedinIn} target="http://linkedin.com/in/anandgauravdevops" />
+        <BlackIconWrapper icon={faGithub} target="https://github.com/gauravanand2600"  />
+        <RedIconWrapper icon={faEnvelope} target="gauravanand2600@gmail.com" isEmail />
       </div>
     </>
   )
