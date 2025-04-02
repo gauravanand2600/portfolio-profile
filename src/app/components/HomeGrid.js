@@ -12,10 +12,10 @@ import { GRIDS } from "../constants"
 
 export default function HomeGrid({ setCurrentGrid, animatedStyles }) {
   const [nameIdx, setNameIdx] = useState(0)
-  const name = "Ambati Bhargavi".split("")
+  const name = "Anand Gaurav".split("")
 
   const [subheadingIdx, setSubheadingIdx] = useState(0)
-  const subheading = "Devops Engineer, Web Developer".split("")
+  const subheading = "Devops Engineer, Network Engineer".split("")
 
   useEffect(() => {
     const id = setInterval(() => {
@@ -50,7 +50,7 @@ export default function HomeGrid({ setCurrentGrid, animatedStyles }) {
       >
         <animated.div
           style={trails[1]}
-          className='relative bg-[#F4A261] border border-black h-full w-full'
+          className='relative bg-[#EA9A9D] border border-black h-full w-full'
           onClick={() => setCurrentGrid(GRIDS[2])}
         >
           <WorkExperience />
@@ -87,14 +87,14 @@ export default function HomeGrid({ setCurrentGrid, animatedStyles }) {
           style={trails[0]}
           className='h-full w-full p-10 bg-[#e9c46a] border border-black flex flex-col items-center justify-center gap-3'
         >
-          <div className='border border-neutral-900 bg-[#264653]  w-fit px-5 py-3'>
-            <span className='text-5xl font-bold' id='home'>
+          <div className='border border-neutral-900 bg-[#ffdac1] w-fit px-5 py-3'>
+            <span className='text-5xl font-bold text-black' id='home'>
               {name.slice(0, nameIdx).join("")}
               <span className='inline-block mx-2 w-6 h-1 bg-[#2A9D8F] animate-pulse'></span>
             </span>
           </div>
-          <div className='border text-center border-neutral-900 bg-[#264653] w-fit px-5 py-2'>
-            <span className='md:text-md'>
+          <div className='border text-center border-neutral-900 bg-[#ffdac1] w-fit px-5 py-2'>
+            <span className='md:text-md text-black'>
               {subheading.slice(0, subheadingIdx).join("")}
               <span className='inline-block w-3 h-0.5 mx-1 bg-[#2A9D8F] animate-pulse'></span>
             </span>
