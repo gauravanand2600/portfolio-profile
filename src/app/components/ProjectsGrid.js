@@ -146,7 +146,7 @@ export default function ProjectsGrid({ setCurrentGrid, animatedStyles }) {
           </p>
            <div className="flex justify-center items-center w-full h-full">
             <a
-              href="https://github.com/ambatibhargavi/terraformloops"
+              href="https://github.com/gauravanand2600"
               target="_blank"
               rel="noopener noreferrer"
               className="px-6 py-2 bg-[#D8BFD8] text-black rounded-md shadow-md hover:bg-[#E6E6FA] hover:shadow-lg transition-all"
