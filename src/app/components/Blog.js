@@ -373,7 +373,7 @@ export default function Blog() {
         />
       </svg>
       <a
-        href="https://medium.com/@ambatibhargavi"
+        href="https://medium.com/@gauravanand2600"
         target="_blank"
         rel="noopener noreferrer"
       >
