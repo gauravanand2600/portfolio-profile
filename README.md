@@ -1,5 +1,5 @@
-🎨 Bentofolio
-Bentofolio is a modern and interactive portfolio web application designed to showcase your projects, work experiences, educational background, blogs, and more. Built with React, styled using TailwindCSS, and powered by React Spring animations, this portfolio ensures an engaging experience for viewers. The application is hosted on Vercel for seamless performance.
+🎨 My Portfoilo
+My Portfolio is a modern and interactive portfolio web application designed to showcase your projects, work experiences, educational background, blogs, and more. Built with React, styled using TailwindCSS, and powered by React Spring animations, this portfolio ensures an engaging experience for viewers. The application is hosted on Vercel for seamless performance.
 
 🌟 Features
 Interactive Design: Animated grid layouts to enhance user experience.
@@ -64,10 +64,10 @@ Update the links to your social media in `Contact.js`.
 You can update the `Resume.js` and `Blog.js` sections to redirect to the correct locations.
 
 🙋‍♀️ Contact
-Name: Ambati Bhargavi
-Email: ambatibhargavi977@gmail.com
-GitHub: @ambatibhargavi
-LinkedIn: Ambati Bhargavi
+Name: Anand Gaurav
+Email: gauravanand2600@gmail.com
+GitHub: @Anand Gaurav
+LinkedIn: Anand Gaurav
 Feel free to reach out for any questions or feedback!
 
 Happy coding! 🚀
