@@ -1,5 +1,6 @@
 🎨 My Portfoilo
 My Portfolio is a modern and interactive portfolio web application designed to showcase your projects, work experiences, educational background, blogs, and more. Built with React, styled using TailwindCSS, and powered by React Spring animations, this portfolio ensures an engaging experience for viewers. The application is hosted on Vercel for seamless performance.
+![image](https://github.com/user-attachments/assets/389f665d-9707-4932-939f-ad6f1c910267)
 
 🌟 Features
 Interactive Design: Animated grid layouts to enhance user experience.
